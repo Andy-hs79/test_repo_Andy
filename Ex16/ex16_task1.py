@@ -5,7 +5,7 @@
 from datetime import date
 
 
-class Human:
+class Human(object):
 
     def __init__(self, name, surname, birth_year):
         """Constructor"""
